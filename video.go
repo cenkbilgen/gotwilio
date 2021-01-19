@@ -40,6 +40,7 @@ const (
 type VideoRoomType string
 
 const (
+	Go	   VideoRoomType = "go"
 	PeerToPeer VideoRoomType = "peer-to-peer"
 	Group      VideoRoomType = "group"
 	GroupSmall VideoRoomType = "group-small"
